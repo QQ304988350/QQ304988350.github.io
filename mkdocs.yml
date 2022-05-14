@@ -1,6 +1,7 @@
-site_name: My Docs
-heme:
+site_name: 我的文档
+theme:
   name: material
+site_author: wang
 markdown_extensions:
   - admonition
   - codehilite:
