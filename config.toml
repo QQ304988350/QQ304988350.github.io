@@ -9,7 +9,7 @@ themesDir = "./themes"
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "我的博客"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -47,7 +47,7 @@ enableEmoji = true
 # Author config
 # 作者配置
 [author]
-  name = "阿顺"
+  name = "wang"
   email = ""
   link = ""
 
@@ -91,7 +91,7 @@ enableEmoji = true
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/dillonzq/LoveIt"
+  gitRepo = "https://github.com/"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
@@ -102,10 +102,10 @@ enableEmoji = true
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "LoveIt"
+  title = "我的博客"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "Hugo theme - LoveIt"
+  description = "个人开发日记"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
@@ -127,10 +127,10 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "LoveIt"
+      name = "首页"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
+      pre = "<i></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -744,98 +744,98 @@ enableEmoji = true
 # Multilingual
 # 多语言
 [languages]
-  [languages.en]
-    weight = 1
-    languageCode = "en"
-    languageName = "English"
-    hasCJKLanguage = false
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "Posts"
-        url = "/posts/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-    [languages.en.params]
-      [languages.en.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 30
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.en.params.home]
-        rss = 10
-        [languages.en.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
-          typeit = true
-          social = true
-          disclaimer = ""
-      [languages.en.params.social]
-        GitHub = "xxxx"
-        Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        Email = "xxxx@xxxx.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+#  [languages.en]
+#    weight = 1
+#    languageCode = "en"
+#    languageName = "English"
+#    hasCJKLanguage = false
+#    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+#    [languages.en.menu]
+#      [[languages.en.menu.main]]
+#        weight = 1
+#        identifier = "posts"
+#        pre = ""
+#        post = ""
+#        name = "Posts"
+#        url = "/posts/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 2
+#        identifier = "tags"
+#        pre = ""
+#        post = ""
+#        name = "Tags"
+#        url = "/tags/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 3
+#        identifier = "categories"
+#        pre = ""
+#        post = ""
+#        name = "Categories"
+#        url = "/categories/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 4
+#        identifier = "documentation"
+#        pre = ""
+#        post = ""
+#        name = "Docs"
+#        url = "/categories/documentation/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 5
+#        identifier = "about"
+#        pre = ""
+#        post = ""
+#        name = "About"
+#        url = "/about/"
+#        title = ""
+#      [[languages.en.menu.main]]
+#        weight = 6
+#        identifier = "github"
+#        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+#        post = ""
+#        name = ""
+#        url = "https://github.com/dillonzq/LoveIt"
+#        title = "GitHub"
+#    [languages.en.params]
+#      [languages.en.params.search]
+#        enable = true
+#        type = "algolia"
+#        contentLength = 4000
+#        placeholder = ""
+#        maxResultLength = 10
+#        snippetLength = 30
+#        highlightTag = "em"
+#        absoluteURL = false
+#        [languages.en.params.search.algolia]
+#          index = "index.en"
+#          appID = "PASDMWALPK"
+#          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+#      [languages.en.params.home]
+#        rss = 10
+#        [languages.en.params.home.profile]
+#          enable = true
+#          gravatarEmail = ""
+#          avatarURL = "/images/avatar.png"
+#          title = ""
+#          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+#          typeit = true
+#          social = true
+#          disclaimer = ""
+#      [languages.en.params.social]
+#        GitHub = "xxxx"
+#        Twitter = "xxxx"
+#        Instagram = "xxxx"
+#        Facebook = "xxxx"
+#        Telegram = "xxxx"
+#        Youtubelegacy = "xxxx"
+#        Email = "xxxx@xxxx.com"
+#        RSS = true
+#        [languages.en.params.social.Mastodon]
+#          id = "@xxxx"
+#          prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
     weight = 2
