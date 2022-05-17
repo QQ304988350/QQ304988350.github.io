@@ -10,7 +10,7 @@ on:
       hugoVersion:
         description: "Hugo Version"
         required: false
-        default: "0.83.0"
+        default: "latest"
 
 jobs:
   build:
