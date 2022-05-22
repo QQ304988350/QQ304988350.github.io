@@ -1,7 +1,7 @@
 ---
 weight: 4
 title: "QTreeWidget.setModel() is a private method"
-date: 2022-05-22T017:03:25+08:00
+date: 2022-05-22T17:03:25+08:00
 lastmod: 2022-05-22T17:03:25+08:00
 draft: false
 author: "wang"
@@ -9,7 +9,7 @@ authorLink: ""
 description: "bug解决"
 images: []
 tags: ["python","pyqt5"]
-categories: ["test"]
+categories: ["python"]
 
 lightgallery: true
 ---
