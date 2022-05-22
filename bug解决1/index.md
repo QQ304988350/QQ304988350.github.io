@@ -3,7 +3,7 @@
 
 当我使用
 
-```
+```python
 ...
 self.file_tree = QtWidgets.QTreeWidget(self.frame)
 self.file_tree.setMaximumSize(QtCore.QSize(248, 16777215))
@@ -13,7 +13,7 @@ self.file_tree.viewport().setProperty("cursor", QtGui.QCursor(QtCore.Qt.ArrowCur
 
 然后设置系统文件系统
 
-```
+```python
 self.file_model = QFileSystemModel()
 file_index = self.file_model.setRootPath("./我的文档")
 self.file_tree.setModel(self.file_model)
