@@ -6,10 +6,9 @@ lastmod: {{ .Date }}
 draft: false
 author: "wang"
 authorLink: ""
-description: ""
+description: "文章描述"
 images: []
 tags: []
-categories: []
-
+categories: ["未分类"]
 lightgallery: true
 ---
