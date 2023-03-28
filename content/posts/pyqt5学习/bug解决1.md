@@ -39,5 +39,4 @@ self.file_tree.setRootIndex(file_index)
 
 出现错误的原因是QTreeWidget有自己的model,要设置model需要使用QTreeView
 
-测试提交
 
